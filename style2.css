@@ -1,0 +1,102 @@
+*{
+    background-color:aquamarine;
+}
+#heading{
+        color: brown;
+        background-color: darkkhaki;
+    }
+
+.container1,.container2,.container3,.container4,.container5{
+    
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+        
+    border-color:burlywood;
+    border-style: double;
+    border-width: 20px;
+
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+#python{
+        color: red;
+        background-color: cornflowerblue;
+    }
+    #pythondescription{
+        color:azure;
+        background-color: blue;
+    }
+
+ #html{
+        color: red;
+        background-color: cornflowerblue;
+    }
+    #htmldescription{
+        color:azure;
+        background-color: blue;
+    }
+
+#css{
+        color: red;
+        background-color: cornflowerblue;
+    }
+    #cssdescription{
+        color:azure;
+        background-color: blue;
+    }
+
+#javascript{
+        color: red;
+        background-color: cornflowerblue;
+    }
+    #jsdescription{
+        color:azure;
+        background-color: blue;
+    }
+
+#sql{
+        color: red;
+        background-color: cornflowerblue;
+    }
+    #sqldescription{
+        color:azure;
+        background-color: blue;
+    }
+
+/* .container2{
+    
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+        
+    border-color:burlywood;
+    border-style: double;
+    border-width: 20px;
+
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+
+    #html{
+        color: bisque;
+        background-color: cornflowerblue;
+    }
+    #htmldescription{
+        color:azure;
+        background-color: blue;
+    }
+} */
