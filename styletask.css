@@ -12,6 +12,7 @@
     margin: 5px;
     display: inline-block;
     /* display: inline-flex; */
+    vertical-align: top;
 
 
 }
