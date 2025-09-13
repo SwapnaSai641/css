@@ -1,0 +1,38 @@
+.main-container{
+    height: 530px;
+    width: 1000px;
+    border: 2px solid;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.first-images-container,.second-images-container{
+    height: 230px;
+    width: 950px;
+    border: 2px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.image-container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+
+}
+img{
+    height: 100%;
+    width:100%;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+p{
+    text-align: center;
+    margin-top: 100px;
+    /* z-index: +1; */
+}
