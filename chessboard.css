@@ -1,0 +1,57 @@
+.chesscontainer{
+    border: 2px solid;
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    display: inline-block;
+   
+}
+.column1,.column2,.column3,.column4,.column5,.column6,.column7,.column8{
+    /* display: inline-block; */
+    display: flex;
+}
+
+.C1{
+    border: 2px solid;
+    width: 59px;
+    height: 59px;
+    /* display: inline-block; */
+    margin: 0;
+    display: flex;
+    /* margin-right: 0; */
+}
+
+.chesscontainer>.column1>.C1:nth-child(even){
+    background-color:coral;
+}
+.chesscontainer>.column2>.C1:nth-child(odd){
+    background-color:coral;
+}
+.chesscontainer>.column3>.C1:nth-child(even){
+    background-color:coral;
+}
+.chesscontainer>.column4>.C1:nth-child(odd){
+    background-color:coral;
+}
+.chesscontainer>.column5>.C1:nth-child(even){
+    background-color:coral;
+}
+.chesscontainer>.column6>.C1:nth-child(odd){
+    background-color:coral;
+}
+.chesscontainer>.column7>.C1:nth-child(even){
+    background-color:coral;
+}
+.chesscontainer>.column8>.C1:nth-child(odd){
+    background-color:coral;
+}
+
+
+.chesscontainer>.C1>.column1,.column2,.column7,.column8{
+    
+    font-size: 50px;
+    text-align: center;
+}
+.column1{
+    font-size: 50px;
+}
