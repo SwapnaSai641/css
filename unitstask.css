@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+.newvisitors{
+    width: 100%;
+    margin: 10px;
+    border: 2px solid;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+.in-newvisitors{
+    width: 25%;
+    background-color: rgb(34, 198, 34);
+    height: 100%;
+}
+
+.newusers{
+    width: 100%;
+    margin: 10px;
+    border: 2px solid;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+.in-newusers{
+    width: 50%;
+    background-color: orange;
+    height: 100%;
+}
+
+.brate{
+    width: 100%;
+    margin: 10px;
+    border: 2px solid;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+.in-brate{
+    width: 75%;
+    background-color: orangered;
+    height: 100%;
+}
