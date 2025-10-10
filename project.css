@@ -1,0 +1,139 @@
+/* 
+background-img:url("---url---")
+background-repeat:no-repeat;
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+
+ }
+ body,html{
+    height: 100%;
+ }
+
+ .nav-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 0.2 rem;
+    padding: 10px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: +1;
+ }
+
+ .nav-item{
+    width: 300px;
+    text-align: center;
+    font-family: "Inconsolata", sans-serif;
+    padding: 10px;
+    transition: all 0.5s ease;
+ }
+
+ .nav-container>.nav-item:hover{
+   color: black;
+   background-color: antiquewhite;
+   cursor: pointer;
+ }
+
+ .bg-container{
+   height: 75%;
+   /* border: 2px solid; */
+   background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   filter: grayscale(50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+
+ }
+
+ .bg-container>.text-container{
+   font-size: 6rem;
+   color: white;
+   line-height: 150px;
+ }
+
+ .text-container2{
+   position: absolute;
+   bottom: 10px;
+   left: 10px;
+   background-color: black;
+   color: white;
+   padding: 5px;
+ }
+
+  .text-container3{
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+   color: white;
+   padding: 5px;
+ }
+
+ .main-container{
+   display: flex;
+   /* border: 1px solid; */
+   justify-content: center;
+ }
+.main{
+   width: 50%;
+   border: 2px solid;
+   height: 1500px;
+}
+
+.about-container{
+   display: flex;
+   justify-content: center;
+}
+.about-container>p{
+   padding: 6px;
+   background-color: black;
+   color: white;
+   letter-spacing: 4px;
+   margin: 60px 0px;
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+.para-container>p{
+   line-height: 20px;
+   text-align: justify;
+   margin: 20px 0px;
+}
+
+.para-container2>p{
+   line-height: 20px;
+   text-align: justify;
+   margin: 20px 0px;
+}
+
+.owner-container{
+   border-left-color: rgb(175, 170, 170);
+   border-left-width: 5px;
+   border-left-style: solid;
+   background-color:whitesmoke;
+   padding: 30px;
+   margin:0px 0px 30px 0px ;
+}
+
+.owner-container>p{
+   margin: 20px 0px;
+}
+
+.image-container>img{
+   width: 100%;
+   filter: grayscale(50%);
+   margin: 20px 0px;
+}
+
+.hours-container>p{
+   margin: 20px 0px;
+}
