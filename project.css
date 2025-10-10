@@ -8,6 +8,7 @@ background-repeat:no-repeat;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inconsolata", sans-serif;
+    font-size: 1.2rem;
 
  }
  body,html{
@@ -85,8 +86,8 @@ background-repeat:no-repeat;
  }
 .main{
    width: 50%;
-   border: 2px solid;
-   height: 1500px;
+   /* border: 2px solid; */
+   /* height: 4500px; */
 }
 
 .about-container{
@@ -136,4 +137,98 @@ background-repeat:no-repeat;
 
 .hours-container>p{
    margin: 20px 0px;
+}
+
+.label-container{
+   display: flex;
+   justify-content: space-around;
+}
+.label-container>label{
+   width: 300px;
+   display: inline-block;
+   /* background-color: aquamarine; */
+   text-align: center;
+   padding: 10px;
+}
+
+.label-container>label:hover{
+   background-color: cadetblue;
+   cursor: pointer;
+}
+.menu-container{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eat-container,.drink-container{
+   padding: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   display: none;
+}
+
+.eat-container>div,.drink-container>div{
+   line-height: 40px;
+   padding: 20px;
+}
+
+#eat:checked~.eat-container{
+   display: block;
+}
+
+#drink:checked~.drink-container{
+   display: block;
+}
+
+#eat,#drink{
+   display: none;
+}
+
+.image-container2{
+   margin: 20px 0px;
+}
+.image-container2>img{
+   width: 100%;
+   filter: grayscale(50%);
+}
+.image-container3{
+   margin: 20px 0px;
+}
+.image-container3>img{
+   width: 100%;
+   filter: grayscale(50%);
+}
+.fly-container{
+   text-align: justify;
+}
+span{
+   background-color: black;
+   color: white;
+}
+
+.reserve-container{
+   margin: 20px 0px;
+}
+.form-container>input{
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0px;
+}
+
+.form-container>div>input{
+   padding: 10px;
+   /* width: 150px; */
+   border: 0px solid;
+   background-color: black;
+   color: white;
+   letter-spacing: 5px;
+   margin: 10px 0px;
+}
+.form-container>div>input:hover{
+   background-color: darkgrey;
+   color: black;
+
+}
+.footer{
+   background-color:rgb(238, 226, 212) ;
+   padding: 100px;
+   text-align: center;
 }
