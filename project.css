@@ -27,6 +27,13 @@ background-repeat:no-repeat;
     z-index: +1;
  }
 
+ .nav-container>a{
+   color: white;
+   /* border-style: none; */
+   /* justify-content: ; */
+   text-decoration: none;
+ }
+
  .nav-item{
     width: 300px;
     text-align: center;
@@ -35,7 +42,7 @@ background-repeat:no-repeat;
     transition: all 0.5s ease;
  }
 
- .nav-container>.nav-item:hover{
+ .nav-container>a:hover{
    color: black;
    background-color: antiquewhite;
    cursor: pointer;
