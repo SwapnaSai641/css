@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.container{
+    /* height: 20%; */
+    border: 2px solid;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+}
+.container>.colors{
+    display: none;
+}
+
+.color1{
+    border: 2px solid;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.rightcolors{
+    display: flex;
+    border: 2px solid;
+    position: absolute;
+    right: 0px;
+    margin: 5px;
+    /* padding: 10px; */
+    width: 40%;
+    justify-content: space-between;
+}
+.container>.colors{
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+.color2,.color3,.color4,.color5{
+    border: 2px solid;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+}
+.container>.colors{
+    display: none;
+}
+.rightcolors>.color5{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    .container>.colors{
+        display: none;
+    }
+    .color5{
+        display: none;
+    }
+}
+    
+
+@media screen and (max-width:990px){
+    .color1{
+        font-size: 16px;
+    }
+    .rightcolors>.color2{
+        font-size: 16px;
+        width: 50%;
+    }
+    .rightcolors>.color3{
+        display: none;
+    }
+    .rightcolors>.color5{
+        font-size: 16px;
+        width: 50%;
+        border: 2px solid;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;        
+    }
+    .rightcolors>.color4{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:577px){
+    .color1{
+        display: none;
+    }
+    .container>.colors{
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    .rightcolors{
+        display: none;
+    }
+    
+}
